@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+nav{
+	list-style-type: none;
+	padding: 0;
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(250, 250, 250, 0.25);
+	max-height: 50;
+	
+	
+}
+
+li{
+	display: block;
+}
+
+.navContainer{
+	margin-right: 100px;
+	margin-left:100px;
+
+}
+
+li a{
+	float: right;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	padding: 0.25px 30px;
+	text-decoration: none;
+	
+	
+
+}
+
+#LogoImage{
+	position: relative;
+	width:63%; 
+	height:auto; 
+	filter: invert(100%);
+	border-bottom: 2px;
+	
+
+	
+	
+}
+
+#log{
+	float: left;
+	
+}
+
+
+body{
+	margin: 0;
+}
+
+@media(min-width: 35em) {
+	.navContainer{
+		position: fixed;	
+		inset: 0 0 0 30%;
+		background: steelblue;
+	}
+}
