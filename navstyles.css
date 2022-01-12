@@ -1,4 +1,6 @@
+@import "Components/fonts/basier font/stylesheet.css";    /*THis is how you import another css file */
 /* flex for the whole page.  */
+
 
 .flex{
 	display: flex;
@@ -34,17 +36,19 @@
 	font-weight: bold;
 	color: black;
 	padding-inline: 1rem;
+	font-family: "Basier Circle";
+	font-weight:normal;
 }
 
-@media (max-width: 35em){
+@media (max-width: 45em){
 	.primary-navigation{
 		--gap:2em;
 
 		position: fixed;
 		z-index: 1000;
 		inset: 0 0 0 0;
-		/* background: hsl(0, 0%, 90%, 0.1);       This gives the transparent background*/
-		/*backdrop-filter: blur(0.5rem);*/         /* This gives the blury background*/
+		background: hsl(0, 0%, 90%, 0.1);     
+		backdrop-filter: blur(0.5rem);        /* This gives the blury background*/
 		
 		flex-direction: column;
 		padding: min(25vh,10rem) 2em;
@@ -66,7 +70,7 @@
 		width: 2rem;
 		border: 0;
 		aspect-ratio: 1;
-		top: 2rem;
+		top:1rem;
 		right: 2rem;
 		
 	}
