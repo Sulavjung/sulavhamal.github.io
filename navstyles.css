@@ -80,12 +80,12 @@
 	}
 }
 
-/* @supports(backdrop-filter: blur(1rem)){
+ @supports(backdrop-filter: blur(1rem)){
 	.primary-navigation{
-		background: hsl(0 0 100% / 0.1);       *The support will deal at the time when the browser don't support a certain type of effects. 
+		background: hsl(0 0 100% / 0.1);       
 		backdrop-filter: blur(1rem);
 	}
-} */
+} 
 
 body{
 	margin: 0;
