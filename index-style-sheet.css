@@ -28,6 +28,7 @@ border-radius: 26px;
 }
 
 
+
 .hi-message{
 	font-family: "Abused";
 	font-size: 26pt;
@@ -72,6 +73,56 @@ border-radius: 26px;
 	}
 }
 
+/* Below this is the css for the interest box.  */
+.interest{
+	align-items: justify;
+	justify-content:space-between;
+	margin-inline: 5%;
+	margin-bottom: 8%;
+}
+
+.books-you-might-like,.quotes-that-motivates-me,.journal{
+	text-align: center;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 19px;
+	background: white;
+	width: 33.33%;
+	padding-inline: 5%;
+}
+
+.icon-for-interest{
+	font-size: 40pt;
+	padding: 0;
+	height: auto;
+}
+
+.title{
+	font-family: "Basier Circle";
+	padding-inline: 5%;
+}
+
+#short-note{
+	font-family: 'Basier Circle';
+}
+
+
+@media(max-width: 45em){
+	.interest{
+		flex-direction: column;
+		align-items: center;
+		margin-inline: 8%;	
+		margin-bottom: 8%;
+		
+	}
+
+	.books-you-might-like,.quotes-that-motivates-me,.journal{
+		width: 100%;
+		margin-inline: 20%;
+	}
+}
+
+
 html,body{
 	overflow-x: hidden;
+	background: #FAFAFA;
 }
