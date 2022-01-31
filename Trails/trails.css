@@ -1,0 +1,16 @@
+@import "../Components/fonts/basier font/stylesheet.css";    /*THis is how you import another css file */
+/* flex for the whole page.  */
+
+.flex{
+	display: flex;
+	gap: var(--gap, 1rem);
+}
+.trail-div{
+	align-items: center;
+	justify-content:center;
+
+}
+
+.trails-images, .trail-text{
+	width: 50%;
+}

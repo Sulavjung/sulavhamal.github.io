@@ -20,6 +20,11 @@
 	margin-bottom: 10;
 }
 
+.sulav{
+	text-decoration: none;
+	color: black;
+}
+
 .primary-header{
 	align-items: center;
 	justify-content: space-between;

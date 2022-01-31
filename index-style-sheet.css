@@ -106,7 +106,8 @@ border-radius: 26px;
 	align-items: justify;
 	justify-content:space-between;
 	margin-inline: 5%;
-	margin-bottom: 0%;
+	margin-bottom: 0;
+
 }
 .interests{
 	flex-direction: column;
@@ -138,13 +139,18 @@ border-radius: 26px;
 	font-family: 'Basier Circle';
 }
 
+.interest-link{
+	text-decoration: none;
+	color: black;
+}
+
 
 @media(max-width: 45em){
 	.interest{
 		flex-direction: column;
 		align-items: center;
 		margin-inline: 8%;	
-		margin-bottom: 0%;
+		
 		
 	}
 
@@ -162,6 +168,9 @@ border-radius: 26px;
 	font-family: 'Basier Circle';
 	color: whitesmoke;
 	padding: 30px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 	
 	
 }
@@ -195,6 +204,8 @@ border-radius: 26px;
 		font-size: 20pt;
 	}
 }
+
+
 
 
 html,body{
